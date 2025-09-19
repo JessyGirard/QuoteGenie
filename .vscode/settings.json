@@ -1,0 +1,33 @@
+{
+    "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "ruff.enable": true,
+    "ruff.lint.onSave": true
+}{
+  "editor.formatOnSave": true,
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.ruff": false
+  },
+
+  "ruff.enable": true,
+  "ruff.lint.run": "onSave",
+  "black-formatter.args": ["--fast"],
+
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4
+}
